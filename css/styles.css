@@ -1,4 +1,9 @@
-
+/* global styles */
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+/* begin navbar */
 .navbar-default{
   background-color: transparent;
   border-color: transparent;
@@ -14,6 +19,9 @@
   color:#FFF;
   text-shadow: 1px 1px 2px #0a0a0a;
 }
+/* end navbar */
+
+/* begin carousel */
 .carousel-inner .item{
   height: 80vh;
   background-size: cover;
@@ -41,4 +49,33 @@
 }
 .btn-primary, .btn-primary:hover{
   background-color: #F8512F;
+  border-color: #F8512F;
+}
+/* end carousel */
+
+/* begin story */
+#our_story{
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+#our_story h1{
+  font-family: 'Lobster', cursive;
+  color: #F8512F;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#our_story h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 12em;
+  color: rgba(149,147,147, 0.2);
+  position: absolute;
+  z-index: -1;
+}
+#our_story h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top:0;
 }
